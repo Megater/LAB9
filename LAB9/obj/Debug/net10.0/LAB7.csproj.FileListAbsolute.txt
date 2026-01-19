@@ -1,0 +1,14 @@
+/home/mateusz/RiderProjects/LAB7/LAB7/bin/Debug/net10.0/LAB7
+/home/mateusz/RiderProjects/LAB7/LAB7/bin/Debug/net10.0/LAB7.deps.json
+/home/mateusz/RiderProjects/LAB7/LAB7/bin/Debug/net10.0/LAB7.runtimeconfig.json
+/home/mateusz/RiderProjects/LAB7/LAB7/bin/Debug/net10.0/LAB7.dll
+/home/mateusz/RiderProjects/LAB7/LAB7/bin/Debug/net10.0/LAB7.pdb
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.AssemblyInfoInputs.cache
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.AssemblyInfo.cs
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.csproj.CoreCompileInputs.cache
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.dll
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/refint/LAB7.dll
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.pdb
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/LAB7.genruntimeconfig.cache
+/home/mateusz/RiderProjects/LAB7/LAB7/obj/Debug/net10.0/ref/LAB7.dll
