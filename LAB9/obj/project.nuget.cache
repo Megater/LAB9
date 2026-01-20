@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hakTXLo9AcY=",
+  "dgSpecHash": "92u+XsaZp24=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mateusz\\RiderProjects\\LAB9\\LAB9\\LAB9.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/mateusz/RiderProjects/LAB7/LAB9/LAB9.csproj",
+  "expectedPackageFiles": [
+    "/home/mateusz/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

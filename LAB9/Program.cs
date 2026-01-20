@@ -52,6 +52,7 @@ namespace LAB9
             {
                 Console.WriteLine("You chose Task3");
                 Console.WriteLine("");
+                Task3.TasK3();
 
             }
 
