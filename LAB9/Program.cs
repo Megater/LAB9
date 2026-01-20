@@ -16,6 +16,7 @@ namespace LAB9
             Console.WriteLine("5: Task5");
             Console.WriteLine("6: Task6");
             Console.WriteLine("7: Task7");
+            Console.WriteLine("");
             int x = int.Parse(Console.ReadLine());
             while (l != 1)                                      
             {

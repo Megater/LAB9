@@ -10,7 +10,6 @@ class Dog
     public Dog()
     {
         this.name = "unnamed";
-        this.age = age;
     }
 
     public void NameTheDog(string new_name)
@@ -25,22 +24,30 @@ class Dog
     
     public override string ToString()
     {
-        return $"Name of the dog is {name} and age  is {age}";
+        return $"Name of the dog is {name} and age is {age}";
     }
 }
-public class Task2
+class Task2
 {
     public static void TasK2()
     {
         Dog dog1 = new Dog();
         Dog dog2 = new Dog();
-        string name = Console.ReadLine();
-        dog1.ToString();
-        dog1.NameTheDog(name);
+        Console.WriteLine("dog1");
+        Console.WriteLine(dog1.ToString());
+        Console.WriteLine("Name the dog1");
+        dog1.NameTheDog(Console.ReadLine());
         dog1.Birthday();
-        dog2.ToString();
-        dog2.NameTheDog(name);
+        Console.WriteLine(dog2.ToString());
+        Console.WriteLine("dog2");
+        Console.WriteLine(dog1.ToString());
+        Console.WriteLine("Name the dog2");
+        dog2.NameTheDog(Console.ReadLine());
         dog2.Birthday();
+        Console.WriteLine(dog2.ToString());
+        
+            
+        
 
     }
 }
