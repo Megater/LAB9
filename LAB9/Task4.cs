@@ -30,11 +30,31 @@ class Vector3D
         return new Vector3D(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
     }
 
-    public static Vector3D operator *(Vector3D v1, Vector3D v2)
+    public static double operator *(Vector3D v1, Vector3D v2)
     {
-        
+        return (v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z);
     }
-        
+
+    public static Vector3D operator &(Vector3D v1, Vector3D v2)
+    {
+        return new Vector3D(
+            (v1.y * v2.z) - (v1.z * v2.y), (v1.z * v2.x) - (v1.x * v2.z),
+            (v1.x * v2.y) - (v1.y * v2.x));
+    }
+
+    public static Vector3D operator /(double k, Vector3D v)
+    {
+        return new Vector3D(k / v.x, k / v.y, k / v.z);
+    }
+
+    public static Vector3D operator *(double k, Vector3D v)
+    {
+        return new Vector3D(k * v.x, k * v.y, k*v.z);
+    }
+    public static Vector3D operator *(Vector3D v, double k)
+    {
+        return new Vector3D(k * v.x, k * v.y, k*v.z);
+    }
 
     public override string ToString()
     {
@@ -59,7 +79,7 @@ public class Task4
     {
         Vector3D v1 = upload();
         Vector3D v2 = upload();
-        Console.WriteLine("Choose action:\n(+) --- adding two vectors\n(-) --- subtracting\n(*) --- scalar product\n(&) --- vector product\n(/) --- division by the number");
+        Console.WriteLine("Choose action:\n(+) --- adding two vectors\n(-) --- subtracting\n(*) --- scalar product\n(&) --- vector product\n(/) --- division by the number\n(*2) --- product of a vector");
         string choice = Console.ReadLine();
         switch (choice)
         {
@@ -73,6 +93,35 @@ public class Task4
                 Vector3D subtracting = v1 - v2;
                 Console.WriteLine(subtracting.ToString());
                 break;
+            case "*":
+                Console.WriteLine("Scalar product");
+                double scalar =  v1 * v2;
+                break;
+            case "&":
+                Console.WriteLine("Vector product");
+                break;
+            case "(/)":
+                Console.WriteLine("Division of the vector by number");
+                Console.WriteLine("\nType number");
+                double k = double.Parse(Console.ReadLine());
+                Console.WriteLine("Choose Vector 1 or 2");
+                int ch = int.Parse(Console.ReadLine());
+                switch (ch)
+                {
+                    case 1:
+                        Vector3D division = k/v1;
+                        Console.WriteLine(division.ToString());
+                        break;
+                    case 2:
+                        Vector3D division2 = k/v2;
+                        Console.WriteLine(division2.ToString());
+                        break;
+                        
+                }
+                break;
+            case "*2":
+                break;
+
         }
     }
 }
