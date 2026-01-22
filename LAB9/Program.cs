@@ -13,9 +13,6 @@ namespace LAB9
             Console.WriteLine("2: Task2");
             Console.WriteLine("3: Task3");
             Console.WriteLine("4: Task4");
-            Console.WriteLine("5: Task5");
-            Console.WriteLine("6: Task6");
-            Console.WriteLine("7: Task7");
             Console.WriteLine("");
             int x = int.Parse(Console.ReadLine());
             while (l != 1)                                      
@@ -60,27 +57,8 @@ namespace LAB9
             {
                 Console.WriteLine("You chose Task4");
                 Console.WriteLine("");
+                Task4.TasK4();
 
-            }
-
-            if (x == 5)
-            {
-                Console.WriteLine("You chose Task5");
-                Console.WriteLine("");
-
-            }
-
-            if (x == 6)
-            {
-                Console.WriteLine("You chose Task6");
-                Console.WriteLine("");
-
-            }
-
-            if (x == 7)
-            {
-                Console.WriteLine("You chose Task7");
-                Console.WriteLine("");
             }
         }
     }
